@@ -1,0 +1,8 @@
+a={"name":"raju","cgpa":7.8}
+a=["dept"]="cse"
+for i in a.items():
+  print(i)
+for i in a.keys():
+  print(i)
+for i in a.values():
+  print(i)
