@@ -1,0 +1,9 @@
+a=["vyshu","jithu","hema","lohi"]
+mark=[[21,25,51,20],[21,32,21,51],[52,32,22,33],[66,78,53,45]]
+per=[]
+for i in mark:
+    d=sum(i)//4
+    per.append(d)
+for i in range(4):
+    print("{}.{}:{}%".format(i+1,a[i],per[i]))
+
